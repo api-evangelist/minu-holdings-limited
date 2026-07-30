@@ -1,8 +1,28 @@
 aid: minu-holdings-limited
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minu-holdings-limited.png
 name: Minu Holdings Limited
-description: Minu Holdings Limited is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Minu Holdings Limited operates minu.mx, Mexico's leading employee benefits and
+  financial wellness platform. Minu provides employers with more than fifty benefits
+  designed to attract, retain, and engage talent, including on-demand salary access
+  (earned wage access), savings accounts, food and gas vouchers, payroll-linked
+  loans, telemedicine, insurance, discounts, and financial education programs.
+  Backed by 500 Global, Minu delivers these services to employees through its mobile
+  app and integrates with employer payroll and HR systems. No public developer portal,
+  API documentation, or OpenAPI specification was found during enrichment; the
+  company operates a private/internal API surface (api.minu.mx responds but is not
+  publicly documented).
 url: https://raw.githubusercontent.com/api-evangelist/minu-holdings-limited/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Employee Benefits
+- Financial Wellness
+- Earned Wage Access
+- Fintech
+- Payroll
+- Mexico
+- HR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/minu-holdings-limited-domain-security.yml
 - type: Website
   url: https://minu.mx
+- type: Blog
+  url: https://minu.mx/blog
+- type: Pricing
+  url: https://minu.mx/precios-planes-beneficios
+- type: TermsOfService
+  url: https://minu.mx/tycos
+- type: PrivacyPolicy
+  url: https://minu.mx/privacy-policy
+- type: Support
+  url: https://minu.mx/contacto
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
